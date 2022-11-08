@@ -15,7 +15,7 @@ export default function Estatus( {sumar} ) {
         <h1> Estatus Posteos </h1>
         <p>
           <span>
-              Likes totales: {sumar} 
+              Likes totales: {sumar + 1 } 
           </span>
         </p>
     </header>
