@@ -8,11 +8,11 @@ import Posteos from './components/Posteos.js'
 // MÉTODOS: App debe tener un método para aumentar este número y que pueda ser ejecutado por su nieto Post.
 // PROPS: App deberá pasar por props lo necesario a sus componenetes internos para que manipulen o lean su estado.  
 
-function App( {sumar} ) {
+function App( {sumarLike} ) {
 
   return (
     <div className="App">
-      <Estatus sumar= {sumar} />
+      <Estatus sumar= {sumarLike} />
       <Posteos />
     </div>
   );
