@@ -59,6 +59,7 @@ header p span {
   /* display: inline; */
   padding: 5px;
   margin-right: 10px;
+  background-color: red;
 }
 .posteo h5{
   display: inline-block;
